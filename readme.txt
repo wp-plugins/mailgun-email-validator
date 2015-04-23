@@ -2,8 +2,8 @@
 Contributors: jesin
 Tags: email validation, comments, spam, validation, anti-spam, contact form 7, jetpack, grunion, contact form
 Requires at least: 3.1.0
-Tested up to: 4.1
-Stable tag: 1.2.1
+Tested up to: 4.2
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,6 +36,7 @@ If you're trying out this plugin on a local WAMP/LAMP/MAMP installation make sur
 = Available Languages =
 * English
 * Serbo-Croatian by [Borisa Djuraskovic](http://www.webhostinghub.com/)
+* Spanish by [Andrew Kurtis](http://www.webhostinghub.com/)
 
 = Further Reading =
 Read about Mailgun's email validation service.
@@ -43,7 +44,7 @@ Read about Mailgun's email validation service.
 * <http://blog.mailgun.com/post/free-email-validation-api-for-web-forms/>
 * <http://blog.mailgun.com/post/weekly-product-update-improvements-to-email-validation-api/>
 * [Mailgun Address Validator demo](http://mailgun.github.io/validator-demo/) and its [source code](https://github.com/mailgun/validator-demo/tree/gh-pages)
-* The [Mailgun Email Validator Plugin](http://jesin.tk/wordpress-plugins/mailgun-email-validator/) official homepage.
+* The [Mailgun Email Validator Plugin](http://websistent.com/wordpress-plugins/mailgun-email-validator/) official homepage.
 
 == Installation ==
 
@@ -58,7 +59,7 @@ Read about Mailgun's email validation service.
 = Why did you create this plugin? =
 I hate comment spam because it bloats my database. I also don't like bugging my visitors with CAPTCHAs in the form of scribbled text, 
 counting the puppies and answering questions like *What is 3 + 2?*
-So when Mailgun released their email validation service I tried validating the email addresses of comments in the spam queue of [my blog](http://jesin.tk).
+So when Mailgun released their email validation service I tried validating the email addresses of comments in the spam queue of [my blog](http://websistent.com).
 I found that nearly 50% of these email addresses were identified incorrect by Mailgun. 
 Thus this plugin was born. Though not as effective as CAPTCHAs this plugin can prevent a decent amount of spam while maintaining user experience.
 
@@ -87,6 +88,11 @@ by choosing the **Support** tab of this plugin. If you directly create a thread 
 Mailgun has created a [jquery demo](http://mailgun.github.io/validator-demo/) at this page. The code for this demo is [available here](https://github.com/mailgun/validator-demo/tree/gh-pages).
 
 == Changelog ==
+
+= 1.2.2 =
+* 21st April 2015
+* Use [Mailgun's API v3](http://blog.mailgun.com/default-api-version-now-v3/)
+* Added Spanish language, props [Andrew Kurtis](http://www.webhostinghub.com/)
 
 = 1.2.1 =
 * 19th October 2014
